@@ -1,0 +1,592 @@
+/*
+Theme Name: Tiga
+Theme URI: http://www.shamsulazhar.com/wp/archives/31
+Description: A simple 3 column theme which is <a href="http://www.gravatar.com">gravatar</a> ready and also compatible with <a href="http://www.randombyte.net/blog/projects/falbum/">FAlbum</a>.
+Author: Shamsul Azhar
+Author URI: http://shamsulazhar.com
+Version: 1.0.2
+*/
+/***************************************************************************/
+/* HTML Tags */
+/***************************************************************************/
+
+body {
+	background-color:#F5F5F5;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	background-image:url("images/body-bg.jpg");
+background-repeat:repeat;
+background-position:top left;
+	background-attachment:fixed;
+}
+
+h1 {
+	margin:0px;
+	padding:0px;
+}
+
+h2 {
+	margin-bottom:0px;
+}
+
+blockquote {
+	border-color:#C5C4BC;
+	background-color:#F8F7EF;
+	border-width:1px 1px 1px 8px;
+	border-style:dotted dotted dotted solid;
+	padding:0em 1em;
+}
+
+pre {
+	overflow:auto;
+	width:80%;
+	font-family: 'Bitstream Vera Sans Mono', 'Andale Mono', 'LucidaTypewriter', monospace;
+	background: #e7e6de;
+	border: solid 1px #aaa;
+	padding: 0px 10px 15px 10px;
+}
+
+.comment-text pre {
+	margin:0px 30px 15px 30px;
+}
+
+pre code, pre pre {
+	border: 0;
+}
+
+code {
+	font-family: 'Bitstream Vera Sans Mono', 'Andale Mono', 'LucidaTypewriter', monospace;
+	font-size: 12px;
+	background: #e7e6de;
+	border: solid 1px #aaa;
+}
+
+a:link {
+	color: #2E432E;
+}
+
+a:visited {
+	color: #2E432E;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#FF0000;
+}
+
+/***************************************************************************/
+/* This is the container for the whole page */
+/***************************************************************************/
+
+.page {
+	max-width:none;
+	min-width:830px;
+
+		/* IE Hack (http://blog.unmatchedstyle.com/hacks/min-width-max-width-re-hacked)- Begin */
+	width:expression(document.documentElement.clientWidth < 830 ?
+				"830px":"99.2%"	);
+	/* IE Hack - End */
+	position:relative;
+	padding:5px;
+	margin:0 auto;
+	text-align:left;
+}
+
+/***************************************************************************/
+/* Header */
+/***************************************************************************/
+
+.header {
+	border-color:#AAAAAA;
+	background-color:#F8F7EF;
+	height:124px;
+	background-image:url("images/header-bg.jpg");
+background-repeat:repeat-x;
+background-position:center;
+	border-style:solid;
+	margin-bottom:5px;
+	border-width: 1px;
+	padding-left:10px;
+}
+
+.blog-name:link, .blog-name:visited, .blog-name:hover {
+	color:#3A3B43;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:34pt;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:transparent;
+}
+
+.blog-description {
+	color:#3A3B43;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	font-weight:normal;
+	margin:0px;
+	padding-left:5px;
+}
+
+/***************************************************************************/
+/* Menu Bar */
+/***************************************************************************/
+
+.menu-bar {
+	text-align:center;
+	padding:5px;
+	margin:0;
+	border:1px solid #aaaaaa;
+	white-space:nowrap;
+	text-decoration:none;
+	margin-bottom:5px;
+	font-size:9pt;
+	background-color:#ffffff;
+}
+
+.menu-bar ul {
+	padding:5px 0px;
+	margin:0;
+}
+
+.menu-bar li {
+	padding:4px 0px;
+	display:inline;
+}
+
+.menu-bar li a {
+	border:1px solid #aaaaaa;
+	padding:4px 4px;
+	background-color:#F5F5F5;
+	text-decoration:none;
+}
+
+.menu-bar li a:hover {
+	padding:4px;
+	background-color:#99CCFF;
+	color:#000066;
+	text-decoration:none;
+}
+
+/***************************************************************************/
+/* Post */
+/***************************************************************************/
+
+.post-title:link, .post-title:visited, .post-title:hover {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	color:#000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	margin-bottom:0px
+}
+
+.post-content, .comment-content {
+	font-size:10pt;
+	color:#333333;
+}
+
+.post-time, .post-author {
+	font-size:8pt;
+	color:#003366;
+	background-color: #FFFFFF;
+}
+
+.post-author {
+	margin-bottom:3em;
+}
+
+.post-metadata {
+	font-size:8pt;
+	color:#003366;
+	background-color: #FFFFFF;
+	padding-left:3em;
+}
+
+/***************************************************************************/
+/* Sidebars */
+/***************************************************************************/
+
+.left-sidebar, .right-sidebar {
+	top:136px;
+	font-size:8pt;
+	position:absolute;
+}
+
+.left-sidebar {
+	width:150px;
+	left:5px;
+}
+
+.right-sidebar {
+	width:172px;
+	right:5px;
+}
+
+/***************************************************************************/
+/* WordPress Sidebar Widgets */
+/***************************************************************************/
+
+/* Left and right sidebars */
+ul.left-sidebar, ul.right-sidebar {
+	padding:0px;
+	margin:0px;
+}
+
+/* Left widget title */
+ul.left-sidebar li h2 {
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+	border-color:#293F5E;
+	color:#FFFFFF;
+	background-color:#293F5E;
+}
+
+/* Right widget title */
+ul.right-sidebar li h2 {
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+	border-color:#293F5E;
+	color:#FFFFFF;
+	background-color:#293F5E;
+}
+
+/* Left and right widget title */
+.widgettitle, ul.left-sidebar li h2, ul.right-sidebar li h2 {
+	border-width:0px 0px 1px 0px;
+	border-style:solid;
+	font-size:9pt;
+	font-weight: bold;
+	padding:5px;
+	margin:-10px -5px 5px;
+}
+
+/* Left widget */
+.left-wp-widget {
+	border-color:#293F5E;
+	width:138px;
+}
+
+/* Right widget */
+.right-wp-widget {
+	border-color:#293F5E;
+	width:160px;
+}
+
+/* Left and right widget */
+.left-wp-widget, .right-wp-widget {
+	padding:10px 5px;
+	border-width:1px;
+	border-style:solid;
+	margin-bottom:5px;
+	background-color:#FFFFFF;
+	list-style-type:none;
+}
+
+/* Style of the block containing the widget contents */
+.left-wp-widget ul, .right-wp-widget ul {
+	list-style-type:none;
+	padding-left:7px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+/* Style of each items in the widget contents */
+.left-wp-widget li, .right-wp-widget li {
+	margin-top:5px;
+}
+
+/* In case the widget content contains a form eg. the Search box */
+.left-wp-widget form, .right-wp-widget form {
+	margin:0px;
+}
+
+/* Correct the style if the widget title is a link */
+h2.widgettitle a:link {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+/* Correct the style if the widget title is a link */
+h2.widgettitle a:visited {
+	color:#FFFFFF;
+}
+
+/***************************************************************************/
+/* Old Style Tiga Widgets */
+/***************************************************************************/
+
+/* Adds background image to the left widget title */
+.left-widget-title {
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+}
+
+/* Adds background image to the right widget title */
+.right-widget-title {
+	background-image:url("images/left-right-widget-title.png");
+background-repeat:repeat-x;
+}
+
+/* Adds background image to the center widget title */
+.center-widget-title {
+	background-image:url("images/center-widget-title.png");
+background-repeat:repeat-x;
+}
+
+/*
+.left-widget, .right-widget {
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity:0.9;
+}
+*/
+
+.left-widget-title {
+	color:#FFFFFF;
+	background-color:#293F5E;
+	border-color:#293F5E;
+	width:138px;
+	border-width:1px 1px 0px 1px;
+	border-style:solid;
+	font-size:9pt;
+	font-weight: bold;
+	padding:5px;
+}
+
+.left-widget {
+	border-color:#293F5E;
+	width:138px;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	color:#000000;
+	background-color:#FFFFFF;
+	padding:5px;
+	margin-bottom:5px;
+}
+
+.right-widget-title {
+	color:#FFFFFF;
+	background-color:#293F5E;
+	border-color:#293F5E;
+	width:160px;
+	border-width:1px 1px 0px 1px;
+	border-style:solid;
+	font-size:9pt;
+	font-weight: bold;
+	padding:5px;
+}
+
+.right-widget {
+	border-color:#293F5E;
+	width:160px;
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	color:#000000;
+	background-color:#FFFFFF;
+	padding:5px;
+	margin-bottom:5px;
+}
+
+.center-widget-title {
+	color:#000000;
+	background-color:#C5C4BC;
+	border-color:#C5C4BC;
+	margin-left:155px;
+	margin-right:177px;
+	border-width:1px 1px 0px 1px;
+	border-style:solid;
+	font-size:9pt;
+	font-weight: bold;
+	padding:5px;
+}
+
+.center-widget {
+	border-color:#C5C4BC;
+	margin-left:155px;
+	margin-right:177px;
+	/**/
+	color:#000000;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style:solid;
+	padding:1em;
+	margin-bottom:5px;
+	font-size:10pt;
+}
+
+.footer {
+	margin-left:155px;
+	margin-right:177px;
+	border-color:#C5C4BC;
+	font-size:10px;
+	text-align:center;
+	position: relative;
+	color:#000000;
+	background-color:#FFFFFF;
+	border-width: 1px;
+	border-style:solid;
+}
+
+.footer p {
+	margin:10px;
+}
+
+img {
+	border-width:0px;
+}
+
+h3#respond, h3#comments {
+	color:#000000;
+}
+
+.single-post-metadata {
+	color:#003366;
+	background-color: #F8F7EF;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}
+
+.even-comment {
+}
+
+.odd-comment, .even-comment{
+	/*background-color:#f8f7ef;*/
+}
+
+.left-widget ul, .right-widget ul {
+	list-style-type:none;
+	padding-left:7px;
+	margin-top:0px;
+	margin-left:0px;
+}
+
+.left-widget li,  .right-widget li {
+	margin-top:5px;
+}
+
+h3#respond, h3#comments {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	margin-bottom:0px
+}
+
+/* Comments Styles */
+.comment-header {
+	border:0px;
+	padding:5px 10px;
+	border-style:solid;
+	background-color:#e7e6de;
+}
+
+.comment-num:link, .comment-num:visited, .comment-num:hover{
+	float:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:34px;
+	font-style:italic;
+	color:#aaaaaa;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.comment-text {
+	padding:0px 10px;
+	border-color:#e7e6de;
+	border-width:1px;
+	border-style:solid;
+	background-color:#f8f7ef;
+}
+
+.comment-list .odd-comment,
+.comment-list .even-comment {
+	font-size:12px;
+	margin-bottom:15px;
+}
+
+.comment-list {
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+}
+
+.comment-date{
+	color:#999999;
+	font-size:7pt;
+}
+
+.comment-edit-link {
+	color:#999999;
+	font-size:7pt;
+}
+
+/* Single post */
+.single-post-metadata {
+	font-size:8pt;
+	/*font-style:italic;*/
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	padding:1em;
+	clear:both;
+}
+
+/***************************************************************************/
+/* Dum, dum dum dum, Don't touch this! */
+/***************************************************************************/
+/* IE Hack (http://www.positioniseverything.net/easyclearing.html) - Begin */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* IE Hack - End */
+/***************************************************************************/
+
+/* Search input */
+input#s {
+	width:90%;
+}
+
+/* Page nav */
+.bottom-page-nav, .top-page-nav {
+	color:#003366;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+.permitted-tags {
+	font-size:7pt;
+	color:#999999;
+	background-color:#FFFFFF;
+	width:300px;
+}
+
+textarea#comment {
+	width:400px;
+}
+
+.google-ads {
+	text-align:center;
+}
+
+.gravatar {
+	float:left;
+	border:1px solid #888888;
+	padding:2px;
+	background-color:#ffffff;
+	margin-right:5px;
+}

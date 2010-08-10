@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiga\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-04-10 18:15+0800\n"
+"Last-Translator: Shamsul Azhar <shamsulazhar@gmail.com>\n"
+"Language-Team: Shamsul Azhar <shamsulazhar@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _t;_te\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/404.php:26
+#: 404.php:26
+msgid "Error"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/404.php:28
+#: 404.php:28
+msgid "The page you requested is no longer here"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/404.php:28
+#: 404.php:28
+msgid "error 404"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/404.php:30
+#: 404.php:30
+msgid "Go to"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/404.php:31
+#: 404.php:31
+msgid "Home Page"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:31
+#: comments.php:31
+msgid "Comments"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:33
+#: comments.php:33
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:48
+#: comments.php:48
+msgid "No Responses"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:48
+#: comments.php:48
+msgid "One Response"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:48
+#: comments.php:48
+msgid "% Responses"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:48
+#: comments.php:48
+msgid "to"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:77
+#: comments.php:77
+msgid "Permanent link to this comment"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:88
+#: comments.php:88
+msgid "says"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:90
+#: comments.php:90
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:95
+#: comments.php:95
+msgid "at"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:99
+#: comments.php:99
+msgid "edit"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:134
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:196
+#: comments.php:134
+#: comments.php:196
+msgid "Leave a Reply"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:137
+#: comments.php:137
+msgid "You must be"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:137
+#: comments.php:137
+msgid "logged in"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:137
+#: comments.php:137
+msgid "to post a comment"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:141
+#: comments.php:141
+msgid "Logged in as"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:177
+#: comments.php:177
+msgid "You can use these tags:"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:182
+#: comments.php:182
+msgid "Submit Comment"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/comments.php:198
+#: comments.php:198
+msgid "Comments are closed."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/footer.php:33
+#: footer.php:33
+#, php-format
+msgid "%s is powered by <a href=\"http://wordpress.org\" title=\"WordPress\">WordPress</a>"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/footer.php:36
+#: footer.php:36
+msgid "Using <a href=\"http://www.shamsulazhar.com/wp/archives/31\" title=\"Tiga - A three column WordPress theme\">Tiga</a> theme with a bit of <a href=\"http://frenchfragfactory.net/ozh/\" title=\"planetOzh : Home of Wordpress Theme Toolkit\">Ozh</a>"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:44
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:48
+#: index.php:45
+#: single.php:48
+msgid "By "
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:48
+#: index.php:49
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:53
+#: index.php:54
+msgid "Posted in "
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:54
+#: index.php:55
+msgid "Edit"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:55
+#: index.php:56
+msgid "No Comments"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:55
+#: index.php:56
+msgid "1 Comment"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:55
+#: index.php:56
+msgid "% Comments"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:83
+#: index.php:84
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:85
+#: index.php:86
+msgid "Next Entries &raquo;"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:95
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:91
+#: index.php:96
+#: single.php:100
+msgid "Error!"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:97
+#: index.php:98
+msgid "Not Found"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/index.php:98
+#: index.php:99
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/page.php:29
+#: page.php:29
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/page.php:30
+#: page.php:30
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/page.php:34
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:74
+#: page.php:34
+#: single.php:83
+msgid "Edit this entry."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:98
+#: searchform.php:25
+#: sidebar.php:101
+msgid "Search"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:52
+#: sidebar.php:29
+#: single.php:52
+#: tiga.php:92
+#: tiga.php:98
+msgid "Pages"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:44
+#: sidebar.php:44
+msgid "Categories"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:51
+#: sidebar.php:51
+msgid "Archives"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:58
+#: sidebar.php:58
+msgid "Calendar"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:103
+#: sidebar.php:106
+msgid "Recent Posts"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/sidebar.php:122
+#: sidebar.php:125
+msgid "Meta"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:28
+#: single.php:28
+msgid "Prev/Next Posts"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:32
+#: single.php:32
+msgid "Home"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:43
+#: single.php:43
+msgid "Permanent Link to "
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:50
+#: single.php:50
+msgid "Read the rest of this entry"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:52
+#: single.php:52
+msgid "number"
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:55
+#: single.php:56
+msgid "This entry is filed under "
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:58
+#: single.php:58
+#, php-format
+msgid "You can follow any responses to this entry through the %s feed."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:64
+#: single.php:64
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:70
+#: single.php:70
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:76
+#: single.php:76
+msgid "You can skip to the end and <a href=\"#respond\">leave a response</a>. Pinging is currently not allowed."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:81
+#: single.php:81
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/single.php:93
+#: single.php:102
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/tiga.php:91
+# C:\xampplite\htdocs\wp\wp-content\themes\tiga/tiga.php:97
+#: tiga.php:91
+#: tiga.php:97
+msgid "Links"
+msgstr ""
+
+#: index.php:33
+msgid "F jS, Y"
+msgstr ""
+
+#: single.php:37
+msgid "l, F jS, Y"
+msgstr ""
+

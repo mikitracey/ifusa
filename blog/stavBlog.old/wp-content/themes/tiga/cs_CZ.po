@@ -1,0 +1,299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tiga theme CZ\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-04-15 23:26+0800\n"
+"Last-Translator: Shamsul Azhar <shamsulazhar@gmail.com>\n"
+"Language-Team: Josef Klimosz <ok2wo@seznam.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _te;_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:26
+#, fuzzy
+msgid "Error"
+msgstr "Chyba!"
+
+#: 404.php:28
+msgid "The page you requested is no longer here"
+msgstr ""
+
+#: 404.php:28
+msgid "error 404"
+msgstr ""
+
+#: 404.php:30
+msgid "Go to"
+msgstr ""
+
+#: 404.php:31
+msgid "Home Page"
+msgstr ""
+
+#: comments.php:31
+#, fuzzy
+msgid "Comments"
+msgstr "Komentáře: %"
+
+#: comments.php:33
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Tento příspěvek je chráněný heslem. Zadejte heslo pro zobrazení komentářů."
+
+#: comments.php:48
+msgid "No Responses"
+msgstr "Žádné odezvy"
+
+#: comments.php:48
+msgid "One Response"
+msgstr "Jedna odezva"
+
+#: comments.php:48
+msgid "% Responses"
+msgstr "Odezvy: %"
+
+#: comments.php:48
+msgid "to"
+msgstr "na"
+
+#: comments.php:77
+#, fuzzy
+msgid "Permanent link to this comment"
+msgstr "Trvalý odkaz na"
+
+#: comments.php:88
+#, fuzzy
+msgid "says"
+msgstr "napsal:"
+
+#: comments.php:90
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentář čeká na schválení."
+
+#: comments.php:95
+#: index.php:33
+msgid "F jS, Y"
+msgstr "j. n. Y"
+
+#: comments.php:95
+#: single.php:37
+msgid "at"
+msgstr "-"
+
+#: comments.php:99
+msgid "edit"
+msgstr "upravit"
+
+#: comments.php:134
+#: comments.php:196
+msgid "Leave a Reply"
+msgstr "Reagujte"
+
+#: comments.php:137
+msgid "You must be"
+msgstr "Musíte být"
+
+#: comments.php:137
+msgid "logged in"
+msgstr "Přihlášen jako"
+
+#: comments.php:137
+#, fuzzy
+msgid "to post a comment"
+msgstr "k odeslání komentáře."
+
+#: comments.php:141
+msgid "Logged in as"
+msgstr "Přihlášen jako "
+
+#: comments.php:177
+#, fuzzy
+msgid "You can use these tags:"
+msgstr "Můžete použít tyto HTML tagy:"
+
+#: comments.php:182
+msgid "Submit Comment"
+msgstr "Odeslat komentář"
+
+#: comments.php:198
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:33
+#, php-format
+msgid "%s is powered by <a href=\"http://wordpress.org\" title=\"WordPress\">WordPress</a>"
+msgstr ""
+
+#: footer.php:36
+msgid "Using <a href=\"http://www.shamsulazhar.com/wp/archives/31\" title=\"Tiga - A three column WordPress theme\">Tiga</a> theme with a bit of <a href=\"http://frenchfragfactory.net/ozh/\" title=\"planetOzh : Home of Wordpress Theme Toolkit\">Ozh</a>"
+msgstr ""
+
+#: index.php:45
+#: single.php:48
+#, fuzzy
+msgid "By "
+msgstr "Od"
+
+#: index.php:49
+msgid "Read the rest of this entry &raquo;"
+msgstr "<strong>Celý příspěvek &raquo;</strong>"
+
+#: index.php:54
+#, fuzzy
+msgid "Posted in "
+msgstr "Uloženo v "
+
+#: index.php:55
+msgid "Edit"
+msgstr "Upravit"
+
+#: index.php:56
+msgid "No Comments"
+msgstr "Žádné komentáře"
+
+#: index.php:56
+msgid "1 Comment"
+msgstr "1 komentář"
+
+#: index.php:56
+msgid "% Comments"
+msgstr "Komentáře: %"
+
+#: index.php:84
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Předchozí příspěvky"
+
+#: index.php:86
+#, fuzzy
+msgid "Next Entries &raquo;"
+msgstr "Další příspěvky &raquo;"
+
+#: index.php:96
+#: single.php:101
+msgid "Error!"
+msgstr "Chyba!"
+
+#: index.php:98
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#: index.php:99
+#, fuzzy
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Lituji, ale hledáte něco, co zde není."
+
+#: page.php:29
+#, fuzzy
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr "<strong>Celý příspěvek &raquo;</strong>"
+
+#: page.php:30
+msgid "<p><strong>Pages:</strong> "
+msgstr ""
+
+#: page.php:34
+#: single.php:84
+msgid "Edit this entry."
+msgstr "Upravit tento příspěvek."
+
+#: searchform.php:25
+#: sidebar.php:138
+msgid "Search"
+msgstr "Hledat"
+
+#: sidebar.php:61
+#: single.php:52
+#: tiga.php:92
+#: tiga.php:98
+msgid "Pages"
+msgstr "Stránky"
+
+#: sidebar.php:76
+msgid "Categories"
+msgstr "Rubriky"
+
+#: sidebar.php:83
+msgid "Archives"
+msgstr "Archivy"
+
+#: sidebar.php:90
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: sidebar.php:143
+msgid "Recent Posts"
+msgstr "Poslední příspěvky"
+
+#: sidebar.php:162
+msgid "Meta"
+msgstr "Meta"
+
+#: single.php:28
+msgid "Prev/Next Posts"
+msgstr "Předchozí/další příspěvky"
+
+#: single.php:32
+msgid "Home"
+msgstr ""
+
+#: single.php:37
+msgid "l, F jS, Y"
+msgstr "j. n. Y"
+
+#: single.php:43
+#, fuzzy
+msgid "Permanent Link to "
+msgstr "Trvalý odkaz na"
+
+#: single.php:50
+#, fuzzy
+msgid "Read the rest of this entry"
+msgstr "<strong>Celý příspěvek &raquo;</strong>"
+
+#: single.php:52
+msgid "number"
+msgstr ""
+
+#: single.php:56
+#, fuzzy
+msgid "This entry is filed under "
+msgstr "Příspěvek je zařazen do"
+
+#: single.php:58
+#, fuzzy, php-format
+msgid "You can follow any responses to this entry through the %s feed."
+msgstr "Můžete sledovat všechny odezvy na tento příspěvek přes"
+
+#: single.php:64
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: single.php:70
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: single.php:76
+#, fuzzy
+msgid "You can skip to the end and <a href=\"#respond\">leave a response</a>. Pinging is currently not allowed."
+msgstr "Můžete přeskočit na konec a zanechat odezvu. Sledování (pingy) nejsou momentálně umožněny."
+
+#: single.php:81
+msgid "Both comments and pings are currently closed."
+msgstr "Komentáře i sledování (pingy) jsou momentálně uzavřeny."
+
+#: single.php:103
+msgid "Sorry, no posts matched your criteria."
+msgstr "Vašemu zadání neodpovídá žádný příspěvek."
+
+#: tiga.php:91
+#: tiga.php:97
+msgid "Links"
+msgstr ""
+
